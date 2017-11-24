@@ -4,23 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.xiaoymin</groupId>
+    <groupId>com.github.shiqiyue</groupId>
     <artifactId>swagger-bootstrap-ui</artifactId>
-    <version>1.6</version>
+    <version>1.7</version>
     <name>swagger-bootstrap-ui</name>
     <description>Swagger-Bootstrap-UI is the front of the UI Swagger implementation, using jQuery+bootstrap implementation, the purpose is to replace the default UI Swagger implementation of the Swagger-UI, so that the document is more friendly...</description>
-    <url>https://git.oschina.net/xiaoym/swagger-bootstrap-ui</url>
-    <developers>
-        <developer>
-            <id>xiaoym</id>
-            <name>肖玉民</name>
-            <email>xiaoymin@foxmail.com</email>
-            <roles>
-                <role>Java Development Engineer</role>
-            </roles>
-            <timezone>2017-4-17 18:05:10</timezone>
-        </developer>
-    </developers>
+    <url>https://gitee.com/shiqiyue/swagger-bootstrap-ui</url>
+   
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- 打包跳过单元测试 -->
@@ -33,21 +23,8 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-    <scm>
-        <connection>scm:git@git.oschina.net:xiaoym/swagger-bootstrap-ui.git</connection>
-        <developerConnection>scm:git@git.oschina.net:xiaoym/swagger-bootstrap-ui.git</developerConnection>
-        <url>git@git.oschina.net:xiaoym/swagger-bootstrap-ui.git</url>
-    </scm>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>oss</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>oss</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
+    
+   
 
     <build>
         <resources>
@@ -148,16 +125,7 @@
                     </plugin>
                 </plugins>
             </build>
-            <distributionManagement>
-                <snapshotRepository>
-                    <id>oss</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-                </snapshotRepository>
-                <repository>
-                    <id>oss</id>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-                </repository>
-            </distributionManagement>
+          
         </profile>
     </profiles>
 </project>
