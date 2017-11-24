@@ -6,7 +6,7 @@
 
     <groupId>com.github.shiqiyue</groupId>
     <artifactId>swagger-bootstrap-ui</artifactId>
-    <version>1.7</version>
+    <version>1.9.2</version>
     <name>swagger-bootstrap-ui</name>
     <description>Swagger-Bootstrap-UI is the front of the UI Swagger implementation, using jQuery+bootstrap implementation, the purpose is to replace the default UI Swagger implementation of the Swagger-UI, so that the document is more friendly...</description>
     <url>https://gitee.com/shiqiyue/swagger-bootstrap-ui</url>
@@ -128,4 +128,17 @@
           
         </profile>
     </profiles>
+    <!-- 本地仓库 -->
+	<distributionManagement>
+		<repository>
+			<id>local-releases</id>
+			<name>Release repository</name>
+			<url>http://192.168.0.195:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>local-snapshots</id>
+			<name>Snapshot repository</name>
+			<url>http://192.168.0.195:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>

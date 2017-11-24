@@ -347,7 +347,7 @@
 }
 
 .swagger-section .parameter-item .ui-form-control {
-    width: auto;
+    width: 100%;
     max-width: 100%
 }
 
