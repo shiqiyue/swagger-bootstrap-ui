@@ -19,35 +19,19 @@
 ## 功能
 
 
-* 接口文档说明,效果图如下：
 
-
-
-![](https://xiaoymin.github.io/cloud-sdk-doc/assets/apidoc.jpg)
-
-* 在线调试功能,效果图如下:
-
-![](https://xiaoymin.github.io/cloud-sdk-doc/assets/debug1.jpg)
 
 ## Swagger简介
 
 
 
-Swagger 是一个规范和完整的框架，用于生成、描述、调用和可视化 RESTful 风格的 Web 服务。总体目标是使客户端和文件系统作为服务器以同样的速度来更新。文件的方法，参数和模型紧密集成到服务器端的代码，允许API来始终保持同步。Swagger 让部署管理和使用功能强大的API从未如此简单。
 
-
-
-Swagger-UI默认效果图如下：
-
-
-
-![](https://xiaoymin.github.io/cloud-sdk-doc/assets/swagger.png)
 
 
 
 ## demo演示
 
-[swagger-bootstarp-ui-demo](http://git.oschina.net/xiaoym/swagger-bootstrap-ui-demo)
+
 
 
 
@@ -55,7 +39,7 @@ Swagger-UI默认效果图如下：
 
 
 
-`swagger-bootstrap-ui`下载地址：[下载](http://git.oschina.net/xiaoym/swagger-bootstrap-ui/releases)
+
 
 
 
@@ -110,9 +94,9 @@ Swagger-UI默认效果图如下：
 
 ```java
 <dependency>
-  <groupId>com.github.xiaoymin</groupId>
+  <groupId>com.github.shiqiyue</groupId>
   <artifactId>swagger-bootstrap-ui</artifactId>
-  <version>1.6</version>
+  <version>1.9.5</version>
 </dependency>
 ```
 
@@ -183,7 +167,7 @@ public class SwaggerConfiguration {
 
 
 
-* `swagger-bootstrap-ui`默认访问地址是：`http://${host}:${port}/doc.html`
+* `swagger-bootstrap-ui`默认访问地址是：`http://${host}:${port}/swagger-doc.html`
 
 
 
@@ -238,13 +222,4 @@ public class SwaggerConfiguration {
 </servlet-mapping>
 
 ```
-# 鸣谢
 
-特别感谢以下大牛开发的js/css、html前端框架，美观、易用
-
-| 框架          | 网站                                       |
-| ----------- | ---------------------------------------- |
-| *jquery*    | [http://jquery.com/](http://jquery.com/ "http://jquery.com/") |
-| *bootstrap* | [http://getbootstrap.com](http://getbootstrap.com "http://getbootstrap.com") |
-| *layer*     | [http://layer.layui.com/](http://layer.layui.com/ "http://layer.layui.com/") |
-| *jsonview*  | [https://github.com/yesmeck/jquery-jsonview](https://github.com/yesmeck/jquery-jsonview "https://github.com/yesmeck/jquery-jsonview") |
