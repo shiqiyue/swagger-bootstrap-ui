@@ -6,7 +6,7 @@
 
     <groupId>com.github.shiqiyue</groupId>
     <artifactId>swagger-bootstrap-ui</artifactId>
-    <version>1.9.2</version>
+    <version>1.9.5</version>
     <name>swagger-bootstrap-ui</name>
     <description>Swagger-Bootstrap-UI is the front of the UI Swagger implementation, using jQuery+bootstrap implementation, the purpose is to replace the default UI Swagger implementation of the Swagger-UI, so that the document is more friendly...</description>
     <url>https://gitee.com/shiqiyue/swagger-bootstrap-ui</url>
@@ -23,7 +23,19 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-    
+    <scm>
+		<url>https://github.com/shiqiyue/swagger-bootstrap-ui</url>
+		<connection>scm:git:git@github.com:shiqiyue/swagger-bootstrap-ui.git</connection>
+		<developerConnection>scm:git:git@github.com:shiqiyue/swagger-bootstrap-ui.git</developerConnection>
+	</scm>
+	<developers>
+		<developer>
+			<id>shiqiyue</id>
+			<name>shiqiyue</name>
+			<email>835802084@qq.com</email>
+		</developer>
+	</developers>
+	
    
 
     <build>
@@ -130,15 +142,13 @@
     </profiles>
     <!-- 本地仓库 -->
 	<distributionManagement>
-		<repository>
-			<id>local-releases</id>
-			<name>Release repository</name>
-			<url>http://192.168.0.195:8081/nexus/content/repositories/releases/</url>
-		</repository>
 		<snapshotRepository>
-			<id>local-snapshots</id>
-			<name>Snapshot repository</name>
-			<url>http://192.168.0.195:8081/nexus/content/repositories/snapshots/</url>
+			<id>oss</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
+		<repository>
+			<id>oss</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
 	</distributionManagement>
 </project>
