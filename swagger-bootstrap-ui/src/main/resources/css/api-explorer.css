@@ -153,6 +153,7 @@
     display: inline-block;
     vertical-align: top;
     text-overflow: ellipsis;
+    height: 19px;
     white-space: nowrap
 }
 
